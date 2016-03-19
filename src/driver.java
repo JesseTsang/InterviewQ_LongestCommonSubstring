@@ -11,11 +11,6 @@ public class driver
 		findCommonSubstring test1 = new findCommonSubstring(testString1, testString2);
 		testResult1 = test1.commonSubstring();
 		
-		System.out.print("The longest string is: ");
-		
-		for (int i=0; i<testResult1.size(); i++)
-		{
-			System.out.print(testResult1);
-		}
+		System.out.print("The longest string is: " + testResult1);
 	}
 }
